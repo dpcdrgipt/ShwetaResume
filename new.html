@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shweta Yadav | Portfolio</title>
+    <link rel="stylesheet" href="w_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <h2>Personal Portifolio</h2>
+        <button class="btn toggle-mode" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    </nav>
+
+    <header>
+        <h1>Hello, I'm <span id="typing-text"></span></h1>
+        
+        <p>A passionate web developer and Machine Learning enthusiast.</p>
+    </header>
+
+    <section id="introduction" class="glass">
+        <h2>🌐 Web Technologies</h2>
+        <p>Web technologies include HTML, CSS, and JavaScript, which help create modern websites.</p>
+        <div class="cards">
+            <div class="card"><h3>HTML</h3><p>Defines the structure.</p></div>
+            <div class="card"><h3>CSS</h3><p>Styles the content.</p></div>
+            <div class="card"><h3>JavaScript</h3><p>Adds interactivity.</p></div>
+        </div>
+        <h2>🌐 Machine Learning And Data Science</h2>
+        <p>A typical machine learning tech stack includes Python, TensorFlow/PyTorch, scikit-learn, NumPy, Pandas, Jupyter.</p>
+        <div class="cards">
+            <div class="card"><h3>Python</h3><p>The most popular programming language for ML due to its rich ecosystem of libraries and frameworks.</p></div>
+            <div class="card"><h3>TensorFlow</h3><p>An open-source deep learning framework developed by Google, widely used for building and training neural networks.</p></div>
+            <div class="card"><h3>PyTorch</h3><p>A deep learning framework developed by Meta (Facebook), known for its ease of use and dynamic computation graphs.</p></div>
+        </div>
+    </section>
+
+    <section id="profile" class="glass">
+        <h2>👨‍💻 About Me</h2>
+        <div class="profile-container">
+            
+            <div>
+                <p><strong>Name:</strong> Shweta Yadav</p>
+                <p><strong>Bio:</strong> Enthusiastic about frontend development and interested in Machine Learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="glass">
+        <h2>🎓 Education & Skills</h2>
+    
+        <div class="table-container" >
+            <table >
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Integrated Dual Degree In Computer Science And Artificial Intelligence</td>
+                        <td>Rajiv Gandhi Institute of Petroleum Technology</td>
+                        <td>2023-28</td>
+                        <td>9.26 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Higher Secondary (XII)</td>
+                        <td>HAL School</td>
+                        <td>2022-23</td>
+                        <td>89%</td>
+                    </tr>
+                    <tr> 
+                        <td>Senior Secondary (X)</td>
+                        <td>HAL School</td>
+                        <td>2020-21</td>
+                        <td>92.4%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        
+    </section>
+    
+
+    <section id="interactive" class="glass">
+        <h2>💡 Random Quote Generator</h2>
+        <button class="btn" onclick="generateQuote()">Get a Quote</button>
+        <p id="quote"></p>
+    </section>
+
+    <script src="w_script.js"></script>
+</body>
+</html>
